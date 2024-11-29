@@ -35,13 +35,13 @@ public class ManaServiceImpl implements ManaService {
     }
 
     @Override
-    public void saveNBT(NbtCompound nbt) {
+    public void saveNBT(NbtCompound nbt, int value) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'saveNBT'");
     }
 
     @Override
-    public void loadNBT(NbtCompound nbt) {
+    public int loadNBT(NbtCompound nbt) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'loadNBT'");
     }

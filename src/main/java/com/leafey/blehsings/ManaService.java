@@ -8,7 +8,7 @@ public interface ManaService {
 	public void addToCurrentMana(int add);
 	public void addToMaxMana(int add);
 	public void setMaxMana(int num);
-	public void saveNBT(NbtCompound nbt);
-	public void loadNBT(NbtCompound nbt);
+	public void saveNBT(NbtCompound nbt, int value);
+	public int loadNBT(NbtCompound nbt);
 
 }
